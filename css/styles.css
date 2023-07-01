@@ -3,6 +3,9 @@
     --title-text-color: #212121;
     --accent-color: #2196F3;
     --second-accent-color: #FFFFFF;
+    --black: #000000;
+    --background: #2F303A;
+    --accent: #F5F4FA;
 }
 
 body{
@@ -12,15 +15,19 @@ body{
 }
 .list{
     list-style: none;
+   
 } 
 a{
     text-decoration: none;
 }
+
+/* header */
+
 .header{
     background: var(--second-accent-color);
 }
 .logo-header{
-    color: #000000;
+    color:var(--black);
     font-family: Raleway, sans-serif;
     font-weight: 700;
     font-size: 26px;
@@ -60,7 +67,7 @@ letter-spacing: 0.02em;
 }
 /* hero */
 .hero{
-    background: #2F303A;
+    background: var(--background);
 }
 .hero-title{
     color: var(--second-accent-color);
@@ -74,6 +81,7 @@ letter-spacing: 0.02em;
 /* button */
 button{
     font-family: inherit;
+    cursor: pointer;
 }
 
 .butoon-secondary{
@@ -84,8 +92,9 @@ button{
     line-height: 1.62;
     text-align: center;
     letter-spacing: 0.03em;
-    background: #F5F4FA;
+    background:var(--accent) ;
     border-radius: 4px;
+   
 }
 .button-primari{
     color: var(--second-accent-color);
@@ -99,6 +108,7 @@ button{
     letter-spacing: 0.06em;
     font-style: normal;
     border: 0mm;
+    
 }
 .butoon-secondary:hover,
 .butoon-secondary:focus{
@@ -116,7 +126,6 @@ button{
 }
 .benefits-text{
     color: var(--primary-text-color);
-    font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
@@ -131,7 +140,7 @@ button{
 }
 .section-title{
     color: var(--title-text-color);
-    background:#F5F4FA;
+    background:var(--accent);
 }
 .card{  
 width: 270px;
@@ -153,7 +162,7 @@ width: 270px;
 }
 .about-team{
     color: var(--primary-text-color);
-    font-weight: 400;
+
     font-size: 16px;
     line-height: 1.19;
     letter-spacing: 0.03em;
@@ -170,7 +179,6 @@ width: 270px;
 }
 .portfolio-p{
 color: var(--primary-text-color);
-font-weight: 400;
 font-size: 16px;
 line-height: 1.88;
 letter-spacing: 0.03em;
@@ -178,7 +186,7 @@ letter-spacing: 0.03em;
 
 /* footer */
 .fooret{
-    background-color: #2F303A;;
+    background-color:var(--background);
 }
 .logo-footer{
     color: var(--second-accent-color);
@@ -205,7 +213,7 @@ letter-spacing: 0.03em;
 }
 
 
-}
+
 /* второй цвет текста #212121 */
 /* основной цвет текста #757575 */
 /* белый #FFFFFF */
